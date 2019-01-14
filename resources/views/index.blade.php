@@ -11,14 +11,14 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="{{ asset('js/jquery.min.js') }}"></script>
+		<script src="{{ asset('js/skel.min.js') }}"></script>
+		<script src="{{ asset('js/skel-layers.min.js') }}"></script>
+		<script src="{{ asset('js/init.js') }}"></script>
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" href="{{ asset('css/skel.css') }}" />
+			<link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
+			<link rel="stylesheet" href="{{ asset('css/style-xlarge.css') }}"/>
 		</noscript>
 	</head>
 	<body id="top">
@@ -92,7 +92,7 @@
 					<div class="row">
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="#" class="image fit"><img src="{{ URL::asset('images/pic01.jpg') }}" alt="" /></a>
 								<h3>Mollis adipiscing nisl</h3>
 								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
 								<ul class="actions">
