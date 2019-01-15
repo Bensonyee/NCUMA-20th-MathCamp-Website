@@ -25,13 +25,13 @@
 
 		<!-- Header -->
 			<header id="header" class="skel-layers-fixed">
-				<h1><a href="#">Ion</a></h1>
+				<h1><a href="#">國立中央大學數學系</a><a> 第20屆松數營</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="left-sidebar.html">Left Sidebar</a></li>
-						<li><a href="right-sidebar.html">Right Sidebar</a></li>
-						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="index.html">首頁</a></li>
+						<li><a href="left-sidebar.html">報名資訊</a></li>
+						<li><a href="right-sidebar.html">營隊介紹</a></li>
+						<li><a href="no-sidebar.html">交通方式</a></li>
 						<!--li><a href="#" class="button special">Sign Up</a></li-->
 					</ul>
 				</nav>
@@ -40,53 +40,26 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<h2>This is Ion</h2>
-					<p>A free responsive template by <a href="http://templated.co">TEMPLATED</a></p>
-					<ul class="actions">
-						<li><a href="#content" class="button big special">Sign Up</a></li>
-						<li><a href="#elements" class="button big alt">Learn More</a></li>
-					</ul>
+                    <h4>你的微笑，是我見過最美的二次曲線。</h4>
+                    <hr>
+					<h2>松數營</h2>
+                    <h4>NCU Math Camp 2019</h4>
+                    <hr>
+					<p>2019.7.15~2019.7.19</p>
+					<!--ul class="actions"-->
+						<!--li><a href="#content" class="button big special">Sign Up</a></li-->
+						<!--li><a href="#elements" class="button big alt">Learn More</a></li-->
+					<!--/ul-->
 				</div>
+                
 			</section>
+        
 
-		<!-- One -->
+		<!-- News -->
 			<section id="one" class="wrapper style1">
 				<header class="major">
-					<h2>Ipsum feugiat consequat</h2>
-					<p>Tempus adipiscing commodo ut aliquam blandit</p>
-				</header>
-				<div class="container">
-					<div class="row">
-						<div class="4u">
-							<section class="special box">
-								<i class="icon fa-area-chart major"></i>
-								<h3>Justo placerat</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="special box">
-								<i class="icon fa-refresh major"></i>
-								<h3>Blandit quis curae</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="special box">
-								<i class="icon fa-cog major"></i>
-								<h3>Amet sed accumsan</h3>
-								<p>Eu non col commodo accumsan ante mi. Commodo consectetur sed mi adipiscing accumsan ac nunc tincidunt lobortis.</p>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-		<!-- Two -->
-			<section id="two" class="wrapper style2">
-				<header class="major">
-					<h2>Commodo accumsan aliquam</h2>
-					<p>Amet nisi nunc lorem accumsan</p>
+					<h2>最新公告</h2>
+					<p>News</p>
 				</header>
 				<div class="container">
 					<div class="row">
@@ -111,11 +84,111 @@
 							</section>
 						</div>
 					</div>
+                </div>
+			</section>
+        			
+		<!-- Introduction -->
+			<section id="two" class="wrapper withimg">
+                <div class='box-1'>
+           			<header class="major">
+                        <h2>松數營簡介</h2>
+                        <p>Introduction</p>
+                    </header>
+                <p>我們是國立中央大學數學系第20屆松數營</p>
+                <p>今年暑假blablabla</p>
+                <div>
+			</section>
+
+		<!-- Informations -->
+			<section id="two" class="wrapper style2 ">
+				<header class="major">
+					<h2>活動資訊</h2>
+					<p>Informations</p>
+				</header>
+                <div class="container">
+					<div class="row">
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-area-chart major"></i>
+								<h3>報名</h3>
+								<p>Go!</p>
+							</section>
+						</div>
+						<div class="4u">
+							<section class="special box">
+								<i class="icon fa-cog major"></i>
+								<h3>營隊介紹</h3>
+								<p>About us</p>
+							</section>
+						</div>
+                        <div class="4u">
+							<section class="special box">
+								<i class="icon fa-cog major"></i>
+								<h3>交通方式</h3>
+								<p>transportation</p>
+							</section>
+						</div>
+					</div>
 				</div>
 			</section>
 
+ 		<!-- timeline -->
+			<section id="one" class="wrapper style1">
+				<header class="major">
+					<h2>活動日程</h2>
+					<p>Timeline</p>
+				</header>
+                <ul class="timeline" id="timeline">
+                    <li class="li complete">
+                        <div class="timestamp">
+                          <span class="author">時程1</span>
+                          <span class="date">11/15/2014<span>
+                        </div>
+                        <div class="status">
+                            <h4> Shift Created </h4>
+                        </div>
+                    </li>
+                    <li class="li complete">
+                        <div class="timestamp">
+                            <span class="author">時程2</span>
+                            <span class="date">11/15/2014<span>
+                        </div>
+                        <div class="status">
+                            <h4> Email Sent </h4>
+                        </div>
+                    </li>
+                    <li class="li complete">
+                        <div class="timestamp">
+                            <span class="author">時程3</span>
+                            <span class="date">11/15/2014<span>
+                        </div>
+                    <div class="status">
+                            <h4> SIC Approval </h4>
+                    </div>
+                    </li>
+                    <li class="li">
+                        <div class="timestamp">
+                            <span class="author">時程4</span>
+                            <span class="date">TBD<span>
+                        </div>
+                        <div class="status">
+                            <h4> Shift Completed </h4>
+                        </div>
+                    </li>
+                    <li class="li">
+                        <div class="timestamp">
+                            <span class="author">時程5</span>
+                            <span class="date">TBD<span>
+                        </div>
+                        <div class="status">
+                            <h4> Shift Completed </h4>
+                        </div>
+                    </li>
+                </ul> 
+			</section>
+        			           
 		<!-- Three -->
-			<section id="three" class="wrapper style1">
+			<section id="three" class="wrapper style2">
 				<div class="container">
 					<div class="row">
 						<div class="8u">
