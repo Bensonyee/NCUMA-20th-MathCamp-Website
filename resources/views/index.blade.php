@@ -138,6 +138,64 @@
 					<h2>活動日程</h2>
 					<p>Timeline</p>
 				</header>
+                <div class="wrapper2">
+                    <h1>Dot-check Progress Bar</h1>
+
+                    <ol class="ProgressBar">
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Cheese</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Pizza</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Steak</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Potatoes</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Potatoes</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Potatoes</span>
+                        </li>
+                    </ol>
+
+
+                    <p>
+                        <button id="previous">Previous</button>
+                        <button id="advance">Advance</button>
+                    </p>
+
+                    <p>
+                        Apply .is-current to a list item note the current step in the list. Apply .is-complete to show the checkmark. The line will be drawn when two list items marked with either class sit next to each other.
+                    </p>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <symbol id="checkmark-bold" viewBox="0 0 24 24">
+                        <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                    </symbol>
+                </svg>
 			</section>
         			           
 		<!-- Three -->
@@ -218,57 +276,7 @@
 						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
 				</div>
-			</footer>
-            
-            <script src="http://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
-                <div class="wrapper2">
-
-                    <h1>Dot-check Progress Bar</h1>
-
-                    <ol class="ProgressBar">
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Cheese</span>
-                        </li>
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Pizza</span>
-                        </li>
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Steak</span>
-                        </li>
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Potatoes</span>
-                        </li>
-                    </ol>
-
-
-                    <p>
-                        <button id="previous">Previous</button>
-                        <button id="advance">Advance</button>
-                    </p>
-
-                    <p>
-                        Apply .is-current to a list item note the current step in the list. Apply .is-complete to show the checkmark. The line will be drawn when two list items marked with either class sit next to each other.
-                    </p>
-                </div>
-
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <symbol id="checkmark-bold" viewBox="0 0 24 24">
-                        <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                    </symbol>
-                </svg>
-            
+			</footer>    
 	</body>
 </html>
 
