@@ -66,7 +66,7 @@
 						<div class="6u">
 							<section class="special">
 								<a href="#" class="image fit"><img src="{{ URL::asset('images/pic01.jpg') }}" alt="" /></a>
-								<h3>Mollis adipiscing nisl</h3>
+								<h3>公告1</h3>
 								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
 								<ul class="actions">
 									<li><a href="#" class="button alt">Learn More</a></li>
@@ -76,7 +76,7 @@
 						<div class="6u">
 							<section class="special">
 								<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Neque ornare adipiscing</h3>
+								<h3>公告2</h3>
 								<p>Eget mi ac magna cep lobortis faucibus accumsan enim lacinia adipiscing metus urna adipiscing cep commodo id. Ac quis arcu amet. Arcu nascetur lorem adipiscing non faucibus odio nullam arcu lobortis. Aliquet ante feugiat. Turpis aliquet ac posuere volutpat lorem arcu aliquam lorem.</p>
 								<ul class="actions">
 									<li><a href="#" class="button alt">Learn More</a></li>
@@ -161,11 +161,9 @@
                             <svg class="ProgressBar-icon"></svg>
                         </li>
                         <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel" style="margin-top: -1em;">7/15</span>
+                            <svg class="ProgressBar-icon"></svg>
                             <span class="ProgressBar-stepLabel">營期開始</span>
+                            <span class="ProgressBar-stepLabel" style="margin-top: 1em;">7/15</span>
                         </li>
                         <li class="ProgressBar-step">
                             <span class="ProgressBar-stepLabel" style="margin-top: -3.5em;">7/19</span>
