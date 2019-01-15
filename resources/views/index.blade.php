@@ -45,7 +45,7 @@
 					<h2>松數營</h2>
                     <h4>NCU Math Camp 2019</h4>
                     <hr>
-					<h3>2019.7.15~2019.7.19</h3>
+					<p>2019.7.15~2019.7.19</p>
 					<!--ul class="actions"-->
 						<!--li><a href="#content" class="button big special">Sign Up</a></li-->
 						<!--li><a href="#elements" class="button big alt">Learn More</a></li-->
@@ -138,53 +138,55 @@
 					<h2>活動日程</h2>
 					<p>Timeline</p>
 				</header>
-                <ul class="timeline" id="timeline">
-                    <li class="li complete">
-                        <div class="timestamp">
-                          <span class="author">時程1</span>
-                          <span class="date">11/15/2014<span>
-                        </div>
+                <div class="mytimeline">
+                    <ul class="timeline" id="timeline">
+                        <li class="li complete">
+                            <div class="timestamp">
+                              <span class="author">時程1</span>
+                              <span class="date">11/15/2014<span>
+                            </div>
+                            <div class="status">
+                                <h4> Shift Created </h4>
+                            </div>
+                        </li>
+                        <li class="li complete">
+                            <div class="timestamp">
+                                <span class="author">時程2</span>
+                                <span class="date">11/15/2014<span>
+                            </div>
+                            <div class="status">
+                                <h4> Email Sent </h4>
+                            </div>
+                        </li>
+                        <li class="li complete">
+                            <div class="timestamp">
+                                <span class="author">時程3</span>
+                                <span class="date">11/15/2014<span>
+                            </div>
                         <div class="status">
-                            <h4> Shift Created </h4>
+                                <h4> SIC Approval </h4>
                         </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <span class="author">時程2</span>
-                            <span class="date">11/15/2014<span>
-                        </div>
-                        <div class="status">
-                            <h4> Email Sent </h4>
-                        </div>
-                    </li>
-                    <li class="li complete">
-                        <div class="timestamp">
-                            <span class="author">時程3</span>
-                            <span class="date">11/15/2014<span>
-                        </div>
-                    <div class="status">
-                            <h4> SIC Approval </h4>
-                    </div>
-                    </li>
-                    <li class="li">
-                        <div class="timestamp">
-                            <span class="author">時程4</span>
-                            <span class="date">TBD<span>
-                        </div>
-                        <div class="status">
-                            <h4> Shift Completed </h4>
-                        </div>
-                    </li>
-                    <li class="li">
-                        <div class="timestamp">
-                            <span class="author">時程5</span>
-                            <span class="date">TBD<span>
-                        </div>
-                        <div class="status">
-                            <h4> Shift Completed </h4>
-                        </div>
-                    </li>
-                </ul> 
+                        </li>
+                        <li class="li">
+                            <div class="timestamp">
+                                <span class="author">時程4</span>
+                                <span class="date">TBD<span>
+                            </div>
+                            <div class="status">
+                                <h4> Shift Completed </h4>
+                            </div>
+                        </li>
+                        <li class="li">
+                            <div class="timestamp">
+                                <span class="author">時程5</span>
+                                <span class="date">TBD<span>
+                            </div>
+                            <div class="status">
+                                <h4> Shift Completed </h4>
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
 			</section>
         			           
 		<!-- Three -->

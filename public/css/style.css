@@ -1102,10 +1102,10 @@
             margin: 0;
         }
 
-		#banner h3 {
+		#banner p {
 			font-size: 1.5em;
 			margin-bottom: 2em;
-            letter-spacing: 0.3em;
+            letter-spacing: 0.5em;
 		}
 
 			#banner p a {
@@ -1156,6 +1156,10 @@
 			color: #bbb;
 		}
         
+        .mytimeline{
+            margin:0;
+            marin:0 auto;
+        }
 .timeline{
     list-style-type: none;
     display: flex;
