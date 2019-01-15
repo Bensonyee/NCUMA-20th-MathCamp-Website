@@ -146,37 +146,38 @@
                             <svg class="ProgressBar-icon">
                                 <use xlink:href="#checkmark-bold" />
                             </svg>
-                            <span class="ProgressBar-stepLabel">Cheese</span>
+                            <span class="ProgressBar-stepLabel">籌備中</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -2em;">報名開始</span>
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            
                         </li>
                         <li class="ProgressBar-step">
                             <svg class="ProgressBar-icon">
                                 <use xlink:href="#checkmark-bold" />
                             </svg>
-                            <span class="ProgressBar-stepLabel">Pizza</span>
+                            <span class="ProgressBar-stepLabel">報名結束</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -2em;">公布錄取名單</span>
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
                         </li>
                         <li class="ProgressBar-step">
                             <svg class="ProgressBar-icon">
                                 <use xlink:href="#checkmark-bold" />
                             </svg>
-                            <span class="ProgressBar-stepLabel">Steak</span>
+                            <span class="ProgressBar-stepLabel">營期開始</span>
                         </li>
                         <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -2em;">圓滿結束</span>
                             <svg class="ProgressBar-icon">
                                 <use xlink:href="#checkmark-bold" />
                             </svg>
-                            <span class="ProgressBar-stepLabel">Potatoes</span>
-                        </li>
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Potatoes</span>
-                        </li>
-                        <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
-                            <span class="ProgressBar-stepLabel">Potatoes</span>
                         </li>
                     </ol>
 
@@ -191,11 +192,6 @@
                     </p>
                 </div>
 
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <symbol id="checkmark-bold" viewBox="0 0 24 24">
-                        <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
-                    </symbol>
-                </svg>
 			</section>
         			           
 		<!-- Three -->
