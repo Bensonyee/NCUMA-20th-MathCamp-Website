@@ -1090,14 +1090,14 @@
 		}
 
 		#banner h2 {
-			font-size: 7em;
+			font-size: 15vh;
 			line-height: 1em;
 			margin: 0 0 0.2em 0;
 			padding: 0;
 		}
         
         #banner h4{
-            font-size: 1.3em;
+            font-size: 3vh;
             letter-spacing: 0.3em;
             margin: 0;
         }
