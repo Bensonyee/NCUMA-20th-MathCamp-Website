@@ -1097,13 +1097,13 @@
 		}
         
         #banner h4{
-            font-size: 3vh;
+            font-size: 2vw;
             letter-spacing: 0.3em;
             margin: 0;
         }
 
 		#banner p {
-			font-size: 2.5vh;
+			font-size: 2.5vw;
 			margin-bottom: 2em;
             letter-spacing: 0.5em;
 		}
@@ -1156,90 +1156,102 @@
 			color: #bbb;
 		}
 
-        
-.ProgressBar {
-    margin: 0 auto;
-    padding: 2em 0 3em;
-    list-style: none;
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-.ProgressBar-step {
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
-.ProgressBar-step:before,
-.ProgressBar-step:after {
-    content: "";
-    height: 0.5em;
-    background-color: #9F9FA3;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    left: -50%;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-.ProgressBar-step:first-child:before,
-.ProgressBar-step:first-child:after {
-    display: none;
-}
-.ProgressBar-step:after {
-    background-color: #00637C;
-    width: 0%;
-}
-.ProgressBar-step.is-complete + .ProgressBar-step.is-current:after,
-.ProgressBar-step.is-complete + .ProgressBar-step.is-complete:after {
-    width: 100%;
-}
-.ProgressBar-icon {
-    width: 1.5em;
-    height: 1.5em;
-    background-color: #9F9FA3;
-    fill: #9F9FA3;
-    border-radius: 50%;
-    padding: 0.5em;
-    max-width: 100%;
-    z-index: 10;
-    position: relative;
-    -webkit-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-.is-current .ProgressBar-icon {
-    fill: #00637C;
-    background-color: #00637C;
-}
-.is-complete .ProgressBar-icon {
-    fill: #DBF1FF;
-    background-color: #00637C;
-}
-.ProgressBar-stepLabel {
-    display: block;
-    text-transform: uppercase;
-    color: #9F9FA3;
-    position: absolute;
-    padding-top: 0em;
-    width: 100%;
-    -webkit-transition: all .25s ease-out;
-    transition: all .25s ease-out;
-}
-.is-current > .ProgressBar-stepLabel,
-.is-complete > .ProgressBar-stepLabel {
-    color: #00637C;
-}
-.timelinewrapper {
-    max-width: 1000px;
-    margin: 4em auto;
-    font-size: 2.2vh;
-}
+/*timeline*/       
+    .ProgressBar {
+        margin: 0 auto;
+        padding: 2em 0 3em;
+        list-style: none;
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .ProgressBar-step {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+    .ProgressBar-step:before,
+    .ProgressBar-step:after {
+        content: "";
+        height: 0.5em;
+        background-color: #9F9FA3;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        left: -50%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+    .ProgressBar-step:first-child:before,
+    .ProgressBar-step:first-child:after {
+        display: none;
+    }
+    .ProgressBar-step:after {
+        background-color: #00637C;
+        width: 0%;
+    }
+    .ProgressBar-step.is-complete + .ProgressBar-step.is-current:after,
+    .ProgressBar-step.is-complete + .ProgressBar-step.is-complete:after {
+        width: 100%;
+    }
+    .ProgressBar-icon {
+        width: 1.5em;
+        height: 1.5em;
+        background-color: #9F9FA3;
+        fill: #9F9FA3;
+        border-radius: 50%;
+        padding: 0.3em;
+        max-width: 100%;
+        z-index: 10;
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+    .is-current .ProgressBar-icon {
+        fill: #00637C;
+        background-color: #00637C;
+    }
+    .is-complete .ProgressBar-icon {
+        fill: #DBF1FF;
+        background-color: #00637C;
+    }
+    .ProgressBar-stepLabel {
+        display: block;
+        text-transform: uppercase;
+        color: #9F9FA3;
+        position: absolute;
+        padding-top: 0em;
+        width: 100%;
+        -webkit-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+    .is-current > .ProgressBar-stepLabel,
+    .is-complete > .ProgressBar-stepLabel {
+        color: #00637C;
+    }
+    .timelinewrapper {
+        max-width: 1000px;
+        margin: 4em auto;
+        font-size: 1.5vw;
+    }
+    
+    .ProgressBar-stepLabel.upperdate{
+        margin-top: -3.5em;
+    }
+    
+    .ProgressBar-stepLabel.uppertext{
+        margin-top: -2em;
+    }
+    
+    .ProgressBar-stepLabel.lowerdate{
+        margin-top: 1em;
+    }
