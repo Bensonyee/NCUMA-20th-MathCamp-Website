@@ -19,7 +19,6 @@
 
 	body {
 		background: #fff;
-        overflow: hidden;
 	}
 
 	body, input, select, textarea {
@@ -1156,11 +1155,6 @@
 		#footer .icons a {
 			color: #bbb;
 		}
-        .mytimeline{       
-            -webkit-overflow-scrolling: touch;
-            overflow-x: scroll;
-            white-space: nowrap;
-        }
 .timeline{
     list-style-type: none;
     display: flex;
