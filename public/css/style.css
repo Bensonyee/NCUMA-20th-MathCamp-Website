@@ -1090,20 +1090,20 @@
 		}
 
 		#banner h2 {
-			font-size: 10vw;
+			font-size: 11vh;
 			line-height: 1em;
 			margin: 0 0 0.2em 0;
 			padding: 0;
 		}
         
         #banner h4{
-            font-size: 2vw;
+            font-size: 2vh;
             letter-spacing: 0.3em;
             margin: 0;
         }
 
 		#banner p {
-			font-size: 2.5vw;
+			font-size: 2vh;
 			margin-bottom: 2em;
             letter-spacing: 0.5em;
 		}
@@ -1241,7 +1241,7 @@
     .timelinewrapper {
         max-width: 1000px;
         margin: 4em auto;
-        font-size: 1.5vw;
+        font-size: 1.8vh;
     }
     
     .ProgressBar-stepLabel.upperdate{
