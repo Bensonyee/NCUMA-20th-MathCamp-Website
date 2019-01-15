@@ -145,6 +145,7 @@
                             <span class="ProgressBar-stepLabel">籌備中</span>
                         </li>
                         <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -3.5em;">1/7</span>
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">報名開始</span>
                             <svg class="ProgressBar-icon"></svg>
                             
@@ -152,8 +153,10 @@
                         <li class="ProgressBar-step">
                             <svg class="ProgressBar-icon"></svg>
                             <span class="ProgressBar-stepLabel">報名結束</span>
+                            <span class="ProgressBar-stepLabel" style="margin-top: 1em;">3/5</span>
                         </li>
                         <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -3.5em;">5/6</span>
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">名單出爐</span>
                             <svg class="ProgressBar-icon"></svg>
                         </li>
@@ -161,9 +164,11 @@
                             <svg class="ProgressBar-icon">
                                 <use xlink:href="#checkmark-bold" />
                             </svg>
+                            <span class="ProgressBar-stepLabel" style="margin-top: -1em;">7/15</span>
                             <span class="ProgressBar-stepLabel">營期開始</span>
                         </li>
                         <li class="ProgressBar-step">
+                            <span class="ProgressBar-stepLabel" style="margin-top: -3.5em;">7/19</span>
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">圓滿結束</span>
                             <svg class="ProgressBar-icon"></svg>
                         </li>
