@@ -1229,7 +1229,7 @@
     text-transform: uppercase;
     color: #9F9FA3;
     position: absolute;
-    padding-top: 0.5em;
+    padding-top: 0em;
     width: 100%;
     -webkit-transition: all .25s ease-out;
     transition: all .25s ease-out;
@@ -1241,5 +1241,5 @@
 .timelinewrapper {
     max-width: 1000px;
     margin: 4em auto;
-    font-size: 1vw;
+    font-size: 2.25vh;
 }

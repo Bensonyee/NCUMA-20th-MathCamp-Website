@@ -154,7 +154,7 @@
                             <span class="ProgressBar-stepLabel">報名結束</span>
                         </li>
                         <li class="ProgressBar-step">
-                            <span class="ProgressBar-stepLabel" style="margin-top: -2em;">公布錄取名單</span>
+                            <span class="ProgressBar-stepLabel" style="margin-top: -2em;">名單出爐</span>
                             <svg class="ProgressBar-icon"></svg>
                         </li>
                         <li class="ProgressBar-step">
