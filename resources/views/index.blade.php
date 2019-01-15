@@ -138,55 +138,6 @@
 					<h2>活動日程</h2>
 					<p>Timeline</p>
 				</header>
-                <div class="mytimeline">
-                    <ul class="timeline" id="timeline">
-                        <li class="li complete">
-                            <div class="timestamp">
-                              <span class="author">時程1</span>
-                              <span class="date">11/15/2014<span>
-                            </div>
-                            <div class="status">
-                                <h4> Shift Created </h4>
-                            </div>
-                        </li>
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <span class="author">時程2</span>
-                                <span class="date">11/15/2014<span>
-                            </div>
-                            <div class="status">
-                                <h4> Email Sent </h4>
-                            </div>
-                        </li>
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <span class="author">時程3</span>
-                                <span class="date">11/15/2014<span>
-                            </div>
-                        <div class="status">
-                                <h4> SIC Approval </h4>
-                        </div>
-                        </li>
-                        <li class="li">
-                            <div class="timestamp">
-                                <span class="author">時程4</span>
-                                <span class="date">TBD<span>
-                            </div>
-                            <div class="status">
-                                <h4> Shift Completed </h4>
-                            </div>
-                        </li>
-                        <li class="li">
-                            <div class="timestamp">
-                                <span class="author">時程5</span>
-                                <span class="date">TBD<span>
-                            </div>
-                            <div class="status">
-                                <h4> Shift Completed </h4>
-                            </div>
-                        </li>
-                    </ul> 
-                </div>
 			</section>
         			           
 		<!-- Three -->
@@ -268,6 +219,75 @@
 					</ul>
 				</div>
 			</footer>
+            
+            <script src="http://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
+                <div class="wrapper2">
 
+                    <h1>Dot-check Progress Bar</h1>
+
+                    <ol class="ProgressBar">
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Cheese</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Pizza</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Steak</span>
+                        </li>
+                        <li class="ProgressBar-step">
+                            <svg class="ProgressBar-icon">
+                                <use xlink:href="#checkmark-bold" />
+                            </svg>
+                            <span class="ProgressBar-stepLabel">Potatoes</span>
+                        </li>
+                    </ol>
+
+
+                    <p>
+                        <button id="previous">Previous</button>
+                        <button id="advance">Advance</button>
+                    </p>
+
+                    <p>
+                        Apply .is-current to a list item note the current step in the list. Apply .is-complete to show the checkmark. The line will be drawn when two list items marked with either class sit next to each other.
+                    </p>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <symbol id="checkmark-bold" viewBox="0 0 24 24">
+                        <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z" />
+                    </symbol>
+                </svg>
+            
 	</body>
 </html>
+
+<script>
+$("#advance").on("click", function() {
+    var $bar = $(".ProgressBar");
+    if ($bar.children(".is-current").length > 0) {
+        $bar.children(".is-current").removeClass("is-current").addClass("is-complete").next().addClass("is-current");
+    } else {
+        $bar.children().first().addClass("is-current");
+    }
+});
+
+$("#previous").on("click", function() {
+    var $bar = $(".ProgressBar");
+    if ($bar.children(".is-current").length > 0) {
+        $bar.children(".is-current").removeClass("is-current").prev().removeClass("is-complete").addClass("is-current");
+    } else {
+        $bar.children(".is-complete").last().removeClass("is-complete").addClass("is-current");
+    }
+});
+</script>

@@ -1155,99 +1155,91 @@
 		#footer .icons a {
 			color: #bbb;
 		}
-.timeline{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.li{
-    transition: all 200ms ease-in;
-    padding:0;
-    margin:0;
-}
 
-.timestamp{
-    margin-bottom: 20px;
-    padding: 0px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 100;
-}
-.status{
-    padding: 0px 50px;
-    display: flex;
-    justify-content: center;
-    border-top: 2px solid #D6DCE0;
+        
+.ProgressBar {
+    margin: 0 auto;
+    padding: 2em 0 3em;
+    list-style: none;
     position: relative;
-    transition: all 200ms ease-in;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
-
-.status h4{
-    margin-top: 1em;
-    font-weight: 600;
-}
-
-.status:before{
-    content: '';
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    border-radius: 25px;
-    border: 1px solid #ddd;
-    position: absolute;
-    top: -15px;
-    left: 42%;
-    transition: all 200ms ease-in ;
-}
-
-.li.complete.status{
-    border-top: 2px solid #66DC71;
-}
-.li.complete.status:before{
-    background-color: #66DC71;
-    border: none;
-    transition: all 200ms ease-in;
-}
-.li.complete.status h4{
-    color: #66DC71;
-}
-
-@media (min-device-width: 320px) and (max-device-width: 700px){
-    .timeline{
-        list-style-type: none;
-        display: block;
-    }
-    .li{
-        transition: all 200ms ease-in;
-        display: flex;
-        width: inherit;
-    }
-    .timestamp{
-        width: 100px;
-    }
-    .status:before{
-        left: -8%;
-        top: 30%;
-        transition: all 200ms ease-in;
-    }
-}
-
-button{
-    position: absolute;
-    width: 100px;
-    min-width: 100px;
-    padding: 20px;
-    margin: 20px;
-    border: none;
-    color: white;
-    font-size: 16px;
+.ProgressBar-step {
     text-align: center;
+    position: relative;
+    width: 100%;
 }
-#toggleButton{
+.ProgressBar-step:before,
+.ProgressBar-step:after {
+    content: "";
+    height: 0.5em;
+    background-color: #9F9FA3;
     position: absolute;
-    left: 50px;
-    top: 20px;
-    background-color: #75C7F6;
+    z-index: 1;
+    width: 100%;
+    left: -50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.ProgressBar-step:first-child:before,
+.ProgressBar-step:first-child:after {
+    display: none;
+}
+.ProgressBar-step:after {
+    background-color: #00637C;
+    width: 0%;
+}
+.ProgressBar-step.is-complete + .ProgressBar-step.is-current:after,
+.ProgressBar-step.is-complete + .ProgressBar-step.is-complete:after {
+    width: 100%;
+}
+.ProgressBar-icon {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #9F9FA3;
+    fill: #9F9FA3;
+    border-radius: 50%;
+    padding: 0.5em;
+    max-width: 100%;
+    z-index: 10;
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.is-current .ProgressBar-icon {
+    fill: #00637C;
+    background-color: #00637C;
+}
+.is-complete .ProgressBar-icon {
+    fill: #DBF1FF;
+    background-color: #00637C;
+}
+.ProgressBar-stepLabel {
+    display: block;
+    text-transform: uppercase;
+    color: #9F9FA3;
+    position: absolute;
+    padding-top: 0.5em;
+    width: 100%;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+.is-current > .ProgressBar-stepLabel,
+.is-complete > .ProgressBar-stepLabel {
+    color: #00637C;
+}
+.wrapper2 {
+    max-width: 1000px;
+    margin: 4em auto;
+    font-size: 16px;
 }
