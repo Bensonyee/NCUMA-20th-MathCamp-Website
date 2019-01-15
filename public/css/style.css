@@ -1103,7 +1103,7 @@
         }
 
 		#banner p {
-			font-size: 1.5em;
+			font-size: 1.5vw;
 			margin-bottom: 2em;
             letter-spacing: 0.5em;
 		}
@@ -1238,8 +1238,8 @@
 .is-complete > .ProgressBar-stepLabel {
     color: #00637C;
 }
-.wrapper2 {
+.timelinewrapper {
     max-width: 1000px;
     margin: 4em auto;
-    font-size: 20px;
+    font-size: 1vw;
 }

@@ -138,34 +138,24 @@
 					<h2>活動日程</h2>
 					<p>Timeline</p>
 				</header>
-                <div class="wrapper2">
-                    <h1>Dot-check Progress Bar</h1>
-
+                <div class="timelinewrapper">
                     <ol class="ProgressBar">
                         <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
+                            <svg class="ProgressBar-icon"></svg>
                             <span class="ProgressBar-stepLabel">籌備中</span>
                         </li>
                         <li class="ProgressBar-step">
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">報名開始</span>
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
+                            <svg class="ProgressBar-icon"></svg>
                             
                         </li>
                         <li class="ProgressBar-step">
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
+                            <svg class="ProgressBar-icon"></svg>
                             <span class="ProgressBar-stepLabel">報名結束</span>
                         </li>
                         <li class="ProgressBar-step">
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">公布錄取名單</span>
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
+                            <svg class="ProgressBar-icon"></svg>
                         </li>
                         <li class="ProgressBar-step">
                             <svg class="ProgressBar-icon">
@@ -175,9 +165,7 @@
                         </li>
                         <li class="ProgressBar-step">
                             <span class="ProgressBar-stepLabel" style="margin-top: -2em;">圓滿結束</span>
-                            <svg class="ProgressBar-icon">
-                                <use xlink:href="#checkmark-bold" />
-                            </svg>
+                            <svg class="ProgressBar-icon"></svg>
                         </li>
                     </ol>
 
@@ -185,10 +173,6 @@
                     <p>
                         <button id="previous">Previous</button>
                         <button id="advance">Advance</button>
-                    </p>
-
-                    <p>
-                        Apply .is-current to a list item note the current step in the list. Apply .is-complete to show the checkmark. The line will be drawn when two list items marked with either class sit next to each other.
                     </p>
                 </div>
 
