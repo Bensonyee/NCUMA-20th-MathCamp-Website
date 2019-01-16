@@ -889,12 +889,12 @@
                 }
                 .wrapper.withimg .box-1 p{
                     color: #444444;
-                    font-size:3vh;
                     position:relative;
                     top: 0;
                     padding: 0;
                     margin-bottom: 1em;
                 }
+               
 
             .wrapper.withimg .box-2{
 
@@ -1320,7 +1320,7 @@
         text-align: center;
         margin-top:2em;
         word-wrap: break-word;
-        font-size: 2.3vh;
+        font-size: 2.2vh;
     }
     
     
@@ -1454,7 +1454,7 @@
         color: #000000;
         margin-bottom:0;
         letter-spacing: 0.1em;
-        font-size:1em;
+        font-size:2vh;
     }
  
 
