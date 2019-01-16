@@ -36,7 +36,7 @@
 			<footer id="footer">
 				<div class="container">
                     <div class="footer_text">
-                        <h2>2019 第二十屆松數營 官方網站</h2>
+                        <h2>2019 第二十屆松數營</h2>
                         <p>主辦單位: 國立中央大學數學系</p>
                         <p>執行長 : 簡延叡 0975582491</p>
                         <p>副執行長 : 沈右任 0903531311</p>

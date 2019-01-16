@@ -18,7 +18,6 @@
                                             <p><img class=" img-fluid" src="../images/ncu.jpg" alt="card image"></p>
                                             <h4 class="card-title">主辦單位</h4>
                                             <p class="card-text">國立中央大學數學系</p>
-                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +68,6 @@
                                             <p><img class=" img-fluid" src="../images/ceo1.jpg" alt="card image"></p>
                                             <h4 class="card-title">執行長</h4>
                                             <p class="card-text">簡延叡</p>
-                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +115,6 @@
                                             <p><img class=" img-fluid" src="../images/ceo2.jpg" alt="card image"></p>
                                             <h4 class="card-title">副執行長</h4>
                                             <p class="card-text">沈右任</p>
-                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                         </div>
                                     </div>
                                 </div>
