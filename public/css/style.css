@@ -19,6 +19,11 @@
 
 	body {
 		background: #fff;
+        background-image: url("../images/background1-1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
 	}
 
 	body, input, select, textarea {
@@ -850,19 +855,19 @@
 		padding: 6em 0 4em 0;
 	}
         .wrapper.withimg{
-            background-image: url("../images/background2.jpg");
+            /*background-image: url("../images/background2.jpg");*/
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
             padding: 4em 5% 4em 5%;
             position: relative;
-            opacity: .9;
+            opacity: .85;
             
         }
             .wrapper.withimg .box-1{
 
                 padding :1em 0.5em 3em 0.5em;
-                background-color:rgba(255,255,255,0.9);
+                background-color:rgba(255,255,255,1);
                 text-align: center;
             }
                 .wrapper.withimg .box-1 .major{
@@ -893,7 +898,7 @@
 
         
 		.wrapper.style1 {
-			background: #fff;
+			background:	#f0f0f0;
 			color: #555f66;
 		}
 
