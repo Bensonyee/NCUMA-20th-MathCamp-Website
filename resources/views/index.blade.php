@@ -17,6 +17,10 @@
 		<!-- Banner -->
         @include('layouts.banner')
         
+        
+ 		<!-- timeline -->
+        @include('layouts.timeline')
+        
 		<!-- News -->
         @include('layouts.news')
        
@@ -25,9 +29,6 @@
 
 		<!-- Informations -->
         @include('layouts.information')
-
- 		<!-- timeline -->
-        @include('layouts.timeline')
 
 		<!-- Contact us -->
         @include('layouts.contact')
