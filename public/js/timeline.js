@@ -17,7 +17,7 @@ function previous(){
     }
 }
 
-var NowProcessing = 0;
+var NowProcessing = 1;
 var i = 0;
 function change(){
     if(i%2==0){

@@ -9,7 +9,7 @@
                 <div class="item col-xs-4 col-lg-6">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="../images/banner3.jpg" alt="" />
+                            <img class="group list-group-image img-fluid" src="../images/news1.jpg" alt="" />
                         </div>
                         <div class="caption card-body " >
                             <h4 class="group card-title inner list-group-item-heading">公告1</h4>
@@ -27,7 +27,7 @@
                 <div class="item col-xs-4 col-lg-6" >
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="../images/banner.jpg" alt="" />
+                            <img class="group list-group-image img-fluid" src="../images/news2.jpg" alt="" />
                         </div>
                         <div class="caption card-body " >
                             <h4 class="group card-title inner list-group-item-heading">公告2</h4>
