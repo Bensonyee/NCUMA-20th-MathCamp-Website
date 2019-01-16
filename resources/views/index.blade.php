@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+@include('includes.head')
 <!--
 	Ion by TEMPLATED
 	templated.co @templatedco
@@ -6,21 +7,9 @@
 -->
 <html>
 	<head>
-		<title>Ion by TEMPLATED</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="{{ asset('js/jquery.min.js') }}"></script>
-		<script src="{{ asset('js/skel.min.js') }}"></script>
-		<script src="{{ asset('js/skel-layers.min.js') }}"></script>
-		<script src="{{ asset('js/init.js') }}"></script>
-		<noscript>
-			<link rel="stylesheet" href="{{ asset('css/skel.css') }}" />
-			<link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
-			<link rel="stylesheet" href="{{ asset('css/style-xlarge.css') }}"/>
-		</noscript>
+		<title>二十屆松樹營</title>
 	</head>
+    
 	<body id="top">
 
 		<!-- Header -->
@@ -172,11 +161,11 @@
                         </li>
                     </ol>
 
-                    <br>
-                    <p>
-                        <button id="previous">Previous</button>
-                        <button id="advance">Advance</button>
-                    </p>
+                    
+                    <div class="timer">
+                        <p id='textLayout'>距離 報名開始 還有 <span id='timer_js'></span></p>
+                    </div>
+
                 </div>
 
 			</section>
@@ -262,23 +251,3 @@
 			</footer>    
 	</body>
 </html>
-
-<script>
-$("#advance").on("click", function() {
-    var $bar = $(".ProgressBar");
-    if ($bar.children(".is-current").length > 0) {
-        $bar.children(".is-current").removeClass("is-current").addClass("is-complete").next().addClass("is-current");
-    } else {
-        $bar.children().first().addClass("is-current");
-    }
-});
-
-$("#previous").on("click", function() {
-    var $bar = $(".ProgressBar");
-    if ($bar.children(".is-current").length > 0) {
-        $bar.children(".is-current").removeClass("is-current").prev().removeClass("is-complete").addClass("is-current");
-    } else {
-        $bar.children(".is-complete").last().removeClass("is-complete").addClass("is-current");
-    }
-});
-</script>

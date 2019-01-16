@@ -1255,3 +1255,9 @@
     .ProgressBar-stepLabel.lowerdate{
         margin-top: 1em;
     }
+    
+    .timer{
+        text-align: center;
+        margin-top:2em;
+        word-wrap: break-word;
+    }

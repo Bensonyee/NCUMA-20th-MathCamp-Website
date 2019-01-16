@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Countdown</title>
+<style type="text/css">
+#defaultCountdown { width: 240px; height: 45px; }
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+$(function () {
+	var austDay = new Date();
+	austDay = new Date(2019, 1 - 1, 26);
+    $('#textLayout').countdown({until: austDay, 
+    layout: '<a>{sn}</a> {sl}, {mn} {ml}, {hn} {hl}, and {dn} {dl}'});
+});
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
