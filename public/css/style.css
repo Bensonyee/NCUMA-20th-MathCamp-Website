@@ -19,7 +19,7 @@
 
 	body {
 		background: #fff;
-        background-image: url("../images/background1-1.jpg");
+        background-image: url("../images/background1.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
@@ -1454,7 +1454,7 @@
         color: #000000;
         margin-bottom:0;
         letter-spacing: 0.1em;
-        font-size:2vh;
+        font-size:3vh;
     }
  
 
