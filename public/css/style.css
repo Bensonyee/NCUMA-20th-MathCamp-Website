@@ -912,22 +912,24 @@
                                 
                 .wrapper.withimg .box-2 .major h2{
                     margin: 0 0 0.5em 0;
-                    color: #ffffff;
+                    color: 	#c4e1ff;
                     font-size:2em;
                 }
                 .wrapper.withimg .box-2 .major p{
-                    color: #f0f0f0;
+                    color: 	#ffecf5;
                     font-size: 1.5em;
                 }
                 .wrapper.withimg .box-2 p{
                     color: #444444;
-                    font-size:3vh;
                     position:relative;
                     top: 0;
                     padding: 0;
                     margin-bottom: 1em;
                 }
-
+                
+                .introduce p{
+                    font-size:3vh;
+                }
         
 		.wrapper.style1 {
 			background:	#f0f0f0;
@@ -1452,7 +1454,9 @@
         color: #000000;
         margin-bottom:0;
         letter-spacing: 0.1em;
+        font-size:1em;
     }
+ 
 
     .backside .card a {
         font-size: 18px;
