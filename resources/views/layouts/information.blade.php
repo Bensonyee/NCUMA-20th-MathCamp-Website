@@ -5,26 +5,26 @@
             <p>Informations</p>
         </header>
         <div class="container infos">
-            <div class="row">
-                <div class="4u">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
                     <a href="fb.me">
                         <section class="special box">
                             <i class="icon fa-location-arrow major"></i>
-                            <h3>報名 & 繳費</h3>
+                            <h3>報名資訊</h3>
                             <p>Join us!</p>
                         </section>
                     </a>
                 </div>
-                <div class="4u">
+                <div class="col-lg-4">
                     <a href="fb.me">
                         <section class="special box">
                             <i class="icon fa-info major"></i>
-                            <h3>關於松數營</h3>
+                            <h3>營隊介紹</h3>
                             <p>About us</p>
                         </section>
                     </a>
                 </div>
-                <div class="4u">
+                <div class="col-lg-4">
                     <a href="fb.me">
                         <section class="special box">
                             <i class="icon fa-car major"></i>

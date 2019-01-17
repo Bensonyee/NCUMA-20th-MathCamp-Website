@@ -7,7 +7,7 @@
         <div class="container">
             <div id="products" class="row view-group" > 
                 <div class="item col-xs-4 col-lg-6">
-                    <div class="thumbnail card">
+                    <div class="thumbnail card ">
                         <div class="img-event">
                             <img class="group list-group-image img-fluid" src="../images/news1.jpg" alt="" />
                         </div>
@@ -16,10 +16,8 @@
                             <p class="group inner list-group-item-text">
                             我是公告我是公告我是公告我是公告我是公告我是公告我是公告我是公告我是公告
                             </p>
-                            <div class="row justify-content-end" style="margin: 0px auto;">
-                                <div>
-                                    <a href="#" class="button alt">查看更多</a>
-                                </div>
+                            <div class="pull-right">
+                                <a href="#" class="button alt">查看更多</a>
                             </div>
                         </div>
                     </div>
@@ -34,10 +32,8 @@
                             <p class="group inner list-group-item-text">
                             我也是公告喔我也是公告喔我也是公告喔我也是公告喔我也是公告喔
                             </p>
-                            <div class="row justify-content-end" style="margin: 0px auto;">
-                                <div>
-                                    <a href="#" class="button alt">查看更多</a>
-                                </div>
+                            <div class="pull-right">
+                                <a href="#" class="button alt">查看更多</a>
                             </div>
                         </div>
                     </div>
