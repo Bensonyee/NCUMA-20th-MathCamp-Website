@@ -11,6 +11,11 @@
 	</head>
     
 	<body id="top">
+        
+        <div class="bg">
+            <img src="../images/background1-3.jpg">
+        </div>
+        
         <!-- Header -->
         @include('layouts.navbar')
 

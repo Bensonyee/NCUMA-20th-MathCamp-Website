@@ -14,6 +14,27 @@
   font-weight: 100;
   src: url('../fonts/NotoSansTC-Thin.otf') format('opentype');
 }
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            min-width: 1000px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1000px) {
+            img.bg {
+                left: 50%;
+                margin-left: -500px;
+            }
+        }
+
 
 /* Basic */
     html{
@@ -21,12 +42,13 @@
     }
 	body {
 		background: #fff;
-        background-image: url("../images/background1-3.jpg");
+        /*background-image: url("../images/background1-3.jpg");*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
 	}
+   
 
 	body, input, select, textarea {
 		color: #555f66;
