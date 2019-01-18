@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/rightsidebar', function () {
-    return view('right-sidebar');
+Route::get('/register', function () {
+    return view('register');
 });

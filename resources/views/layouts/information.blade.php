@@ -10,7 +10,7 @@
                     <a href="fb.me">
                         <section class="special box">
                             <i class="icon fa-location-arrow major"></i>
-                            <h3>報名資訊</h3>
+                            <h3>報名&繳費</h3>
                             <p>Join us!</p>
                         </section>
                     </a>

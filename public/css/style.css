@@ -1121,10 +1121,10 @@
 		background-color: #666666;
 		background-image: url("../images/banner2.jpg");
 		background-size: cover;
-		background-position: center center;
+		background-position: center;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
-		padding: 14em 0;
+		padding: 15em 0;
 		text-align: center;
 		position: relative;
 	}
