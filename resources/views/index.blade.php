@@ -39,19 +39,6 @@
         @include('layouts.contact')
 			
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-                    <div class="footer_text" style="text-align:center;text-justify:distribute;">
-                        <h2 style="margin-bottom:0;">2019 第二十屆松數營</h2>
-                        <ul class="icons" style="margin-bottom:0.5em; margin-top:0.5em;">
-                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        </ul>
-                        <p>主辦單位 國立中央大學數學系</p>
-                        <p>執行長: 簡延叡 &nbsp | &nbsp 副執行長: 沈右任</p>
-
-                    </div>
-				</div>
-			</footer>    
+        @include('layouts.footer')
 
 </html>

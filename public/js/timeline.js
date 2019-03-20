@@ -17,7 +17,7 @@ function previous(){
     }
 }
 
-var NowProcessing = 1;
+var NowProcessing = 2;
 var i = 0;
 function change(){
     if(i%2==0){
@@ -41,7 +41,7 @@ $(document).ready(function() {
     
     $(function () {
         var austDay = new Date();
-        austDay = new Date(2019, 1 - 1, 26);
+        austDay = new Date(2019, 5 - 1, 19);
         $('#timer_js').countdown({until: austDay, 
         layout: '{dn} 天 {hn} 小時 {mn} 分 {sn} 秒'});
     });
