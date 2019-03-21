@@ -28,7 +28,7 @@
                         <section>
                             <h2 class="p-3 mb-2 bg-dark text-white">報名辦法</h2>
                             <div class="d-flex justify-content-center ">
-                                <div class="d-flex text-left p-3 mb-2 " style="font-size:3vh;">
+                                <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
                                     <ul style="margin:0;">
                                         <li><black style="color: #000000;">營隊時間</black> : 2019/07/15(一)〜2019/07/19(五)</li><br>
                                         <li><black style="color: #000000;">營隊地點</black> : 國立中央大學</li><br>
@@ -42,7 +42,7 @@
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">報名費用</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:3vh;">
+                                <table class="table table-bordered table-hover" style="font-size:20px;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">一人報名</th>
@@ -62,7 +62,7 @@
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">退費機制</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:3vh;">
+                                <table class="table table-bordered table-hover" style="font-size:20pxs;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">6/14 23:59:59 前</th>
