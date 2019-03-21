@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title style="font-size:4vh;">報名&繳費資訊</title>
+		<title>報名&繳費資訊</title>
 	</head>
 	<body id="top">
     
@@ -22,7 +22,7 @@
                 <div class="container" style="max-width: 100%; ">
                     <div class="box-1" style="padding:5em 3%;" >
                         <header class="major">
-                            <h2>報名 & 繳費資訊</h2>
+                            <h2 style="font-size:4vh;">報名 & 繳費資訊</h2>
                             <p>Register & Payment</p>
                         </header>
                         <section>
