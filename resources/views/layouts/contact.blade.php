@@ -8,7 +8,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 ">
                 <div class="card  mb-3 mt-3 contactUsCard ">
-                  <img class="card-img-top" src="../images/ncu.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../images/18thlogo.jpg" alt="Card image cap">
                   <div class="card-body ">
                     <h4 class="card-title">主辦單位</h4>
                     <h3 class="card-title">中央大學數學系</h3>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-4 ">
                 <div class="card mb-3 mt-3 contactUsCard">
-                  <img class="card-img-top" src="../images/ncu.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../images/ceo1.jpg" alt="Card image cap">
                   <div class="card-body">
                     <h4 class="card-title">執行長</h4>
                     <h3 class="card-title">簡延叡</h3>
@@ -36,7 +36,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="card mb-3 mt-3 contactUsCard">
-                  <img class="card-img-top" src="../images/ncu.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../images/ceo2.jpg" alt="Card image cap">
                   <div class="card-body" >
                     <h4 class="card-title">副執行長</h4>
                     <h3 class="card-title">沈右任</h3>

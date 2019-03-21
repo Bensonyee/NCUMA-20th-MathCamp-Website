@@ -56,7 +56,7 @@
       </div>
       <div class="modal-body" style="padding-left: 10%; padding-right: 10%;">
          <center>
-            <img src="https://mathcamp.math.ncu.edu.tw/images/news/news1-1.jpg" style="width: 100%; max-width: 300px; margin-top: 50px; margin-bottom: 80px;" alt="">
+            <img src="../images/18thlogo.jpg" style="width: 100%; max-width: 300px; margin-top: 50px; margin-bottom: 80px;" alt="">
          </center>
          <p>萬眾矚目的中央松數營又來啦！不論你喜歡數學還是討厭數學，這個暑假就跟著我們一起冒險，發現數學不為人知的一面，讓你重新愛上數學！想要了解更多嗎？趕快加入我們的行列吧！</p>
       </div>

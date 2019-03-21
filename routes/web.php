@@ -20,3 +20,6 @@ Route::get('/register', function () {
 Route::get('/traffic', function () {
     return view('traffic');
 });
+Route::get('/intro', function () {
+    return view('intro');
+});

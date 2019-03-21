@@ -15,7 +15,7 @@
                 </a>
             </div>
             <div class="col-lg-4">
-                <a href="fb.me">
+                <a href="/intro">
                     <section class="special box">
                         <i class="icon fa-info major"></i>
                         <h3>營隊介紹</h3>

@@ -34,7 +34,8 @@
                                         <li><black style="font-size: 120%; color: #000000;">火車</black> : 台鐵中壢站下車，前站出站後轉乘132、133、172市區公車或計程車（車程20~30分鐘）抵達本校。</li><br>
                                         <li><black style="font-size: 120%; color: #000000;">高鐵</black> : 高鐵桃園站下車，出站後於公車站8號月台搭乘132、172市區公車直達中央大學</li><br>
                                         <li><black style="font-size: 120%; color: #000000;">客運</black> : 請見國道客運9025路線圖及時刻表。</li><br>
-                                        <li><black style="font-size: 120%; color: #000000;">火雞</black> : 請洽嘉義市運輸用火雞總局。</li><br>
+                                        <li><black style="font-size: 120%; color: #000000;">火雞</black> : 請洽交通部火雞總局。</li><br>
+										<li><black style="font-size: 120%; color: #000000;">山豬</black> : 詳見南台灣騎乘用山豬總工會。</li><br>
                                     </ul>      
                                 </div>
                             </div>    
