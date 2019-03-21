@@ -62,7 +62,7 @@
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">退費機制</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:20pxs;">
+                                <table class="table table-bordered table-hover" style="font-size:20px;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">6/14 23:59:59 前</th>
