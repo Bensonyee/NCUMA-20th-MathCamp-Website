@@ -26,23 +26,23 @@
                             <p>Register & Payment</p>
                         </header>
                         <section>
-                            <h1 class="p-3 mb-2 bg-dark text-white">報名辦法</h1>
+                            <h2 class="p-3 mb-2 bg-dark text-white">報名辦法</h2>
                             <div class="d-flex justify-content-center ">
-                                <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
+                                <div class="d-flex text-left p-3 mb-2 " style="font-size:1.3vw;">
                                     <ul style="margin:0;">
-                                        <li>營隊時間 : 2019/07/15(一)〜2019/07/19(五)</li>
-                                        <li>營隊地點 : 國立中央大學</li>
-                                        <li>招生對象 : 國三應屆畢業生〜高三應屆畢業生</li>
-                                        <li>報名時間 : 即日起〜2019/05/19(日)</li>
-                                        <li>報名方式 : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li>
+                                        <li>營隊時間 : 2019/07/15(一)〜2019/07/19(五)</li><br>
+                                        <li>營隊地點 : 國立中央大學</li><br>
+                                        <li>招生對象 : 國三應屆畢業生〜高三應屆畢業生</li><br>
+                                        <li>報名時間 : 即日起〜2019/05/19(日)</li><br>
+                                        <li>報名方式 : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li><br>
                                     </ul>      
                                 </div>
                             </div>    
                             <button type="button" class="btn btn-primary btn-lg btn-block">點我立刻報名！</button>
                             <hr class="major" />
-                            <h1 class="p-3 mb-2 bg-dark text-white">報名費用</h1>
+                            <h2 class="p-3 mb-2 bg-dark text-white">報名費用</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:23px;">
+                                <table class="table table-bordered table-hover" style="font-size:1.3vw;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">一人報名</th>
@@ -60,9 +60,9 @@
                                 </table>
                             </div>
                             <hr class="major" />
-                            <h1 class="p-3 mb-2 bg-dark text-white">退費機制</h1>
+                            <h2 class="p-3 mb-2 bg-dark text-white">退費機制</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:23px;">
+                                <table class="table table-bordered table-hover" style="font-size:1.3vw;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">6/14 23:59:59 前</th>
