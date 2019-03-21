@@ -22,11 +22,11 @@
                 <div class="container" style="max-width: 100%">
                     <div class="box-1" style="padding:5em 5%;" >
                         <header class="major">
-                            <h2>交通資訊</h2>
-                            <p>Traffic Information</p>
+                            <h2 style="font-size:4vh;">交通資訊</h2>
+                            <p style="font-size:3vh;">Traffic Information</p>
                         </header>
                         <section>
-                            <h1 class="p-3 mb-2 bg-dark text-white">大眾運輸</h1>
+                            <h2 class="p-3 mb-2 bg-dark text-white">大眾運輸</h2>
                             <div class="d-flex justify-content-center ">
                                 <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
                                     <ul style="margin:0;">
@@ -38,7 +38,7 @@
                                     </ul>      
                                 </div>
                             </div>    
-                            <h1 class="p-3 mb-2 bg-dark text-white">地圖資訊</h1>
+                            <h2 class="p-3 mb-2 bg-dark text-white">地圖資訊</h2>
                             <div style="text-align: center;">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.881744602536!2d121.19039506500495!3d24.970137734002375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823e9eb7cd8f7%3A0x2a40f754ff1a6598!2z5Lit5aSu5aSn5a246bS757aT6aSo!5e0!3m2!1szh-TW!2stw!4v1521542035844" width="9999" height="450" frameborder="0" style="border:0; max-width: 100%; max-height: 350px;" allowfullscreen=""></iframe>
                                 <h4>中央大學鴻經館 桃園市中壢區中大路300號</h4>

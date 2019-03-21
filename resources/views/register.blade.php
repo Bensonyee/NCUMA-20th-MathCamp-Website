@@ -23,18 +23,18 @@
                     <div class="box-1" style="padding:5em 3%;" >
                         <header class="major">
                             <h2 style="font-size:4vh;">報名 & 繳費資訊</h2>
-                            <p>Register & Payment</p>
+                            <p style="font-size:3vh;">Register & Payment</p>
                         </header>
                         <section>
                             <h2 class="p-3 mb-2 bg-dark text-white">報名辦法</h2>
                             <div class="d-flex justify-content-center ">
                                 <div class="d-flex text-left p-3 mb-2 " style="font-size:3vh;">
                                     <ul style="margin:0;">
-                                        <li>營隊時間 : 2019/07/15(一)〜2019/07/19(五)</li><br>
-                                        <li>營隊地點 : 國立中央大學</li><br>
-                                        <li>招生對象 : 國三應屆畢業生〜高三應屆畢業生</li><br>
-                                        <li>報名時間 : 即日起〜2019/05/19(日)</li><br>
-                                        <li>報名方式 : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li><br>
+                                        <li><black style="color: #000000;">營隊時間</black> : 2019/07/15(一)〜2019/07/19(五)</li><br>
+                                        <li><black style="color: #000000;">營隊地點</black> : 國立中央大學</li><br>
+                                        <li><black style="color: #000000;">招生對象</black> : 國三應屆畢業生〜高三應屆畢業生</li><br>
+                                        <li><black style="color: #000000;">報名時間</black> : 即日起〜2019/05/19(日)</li><br>
+                                        <li><black style="color: #000000;">報名方式</black> : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li><br>
                                     </ul>      
                                 </div>
                             </div>    
