@@ -1,6 +1,6 @@
 <!-- Header -->
     <header id="header" class="skel-layers-fixed">
-        <h1><a >第二十屆松數營</a><a > 官方網站</a></h1>
+        <h1><a href="/">第二十屆松數營</a><a> 官方網站</a></h1>
         <nav id="nav">
             <ul>
                 <li><a href="/">首頁</a></li>

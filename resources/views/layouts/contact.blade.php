@@ -13,8 +13,8 @@
                     <h4 class="card-title">主辦單位</h4>
                     <h3 class="card-title">中央大學數學系</h3>
                     <hr style="margin-top:1em; margin-bottom:1em;">
-                    <div class="card-text" style="padding-left:30%; text-align:left; ">
-                        <i class="fa fa-phone"></i><a>&nbsp &nbsp 0900-000000</a></br>
+                    <div class="card-text" style="padding-left:20%; text-align:left; ">
+                        <i class="fa fa-phone"></i><a>&nbsp &nbsp 03-4227151 轉 65117 </a></br>
                         <i class="fa fa-facebook-square"></i><a>&nbsp &nbsp Link</a></br>
                     </div>
                   </div>
@@ -27,7 +27,7 @@
                     <h4 class="card-title">執行長</h4>
                     <h3 class="card-title">簡延叡</h3>
                     <hr style="margin-top:1em;margin-bottom:1em;">
-                    <div class="card-text" style="padding-left:30%; text-align:left; ">
+                    <div class="card-text" style="padding-left:20%; text-align:left; ">
                         <i class="fa fa-phone"></i><a>&nbsp &nbsp 0975-582491</a></br>
                         <i class="fa fa-facebook-square"></i><a style="text-decoration: none;" href="https://www.facebook.com/profile.php?id=100002704315173">&nbsp &nbsp 簡延叡</a></br>
                     </div>
@@ -41,7 +41,7 @@
                     <h4 class="card-title">副執行長</h4>
                     <h3 class="card-title">沈右任</h3>
                     <hr style="margin-top:1em;margin-bottom:1em;">
-                    <div class="card-text" style="padding-left:30%; text-align:left; ">
+                    <div class="card-text" style="padding-left:20%; text-align:left; ">
                         <i class="fa fa-phone"></i><a>&nbsp &nbsp 0903-531311</a></br>
                         <i class="fa fa-facebook-square"></i><a style="text-decoration: none;" href="https://www.facebook.com/miju0932668795">&nbsp &nbsp 沈右任</a></br>
                     </div>
