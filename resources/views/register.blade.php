@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title style="font-size:4.5vh;">報名&繳費資訊</title>
+		<title style="font-size:4vh;">報名&繳費資訊</title>
 	</head>
 	<body id="top">
     
