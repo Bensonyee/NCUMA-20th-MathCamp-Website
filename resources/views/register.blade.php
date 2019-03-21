@@ -7,7 +7,7 @@
 -->
 <html>
 	<head>
-		<title>報名&繳費資訊</title>
+		<title style="font-size:4.5vh;">報名&繳費資訊</title>
 	</head>
 	<body id="top">
     
@@ -18,9 +18,9 @@
 		<!-- Header -->
             @include('layouts.navbar')
 		<!-- Main -->
-			<section id="main" class="wrapper withimg" >
-                <div class="container" style="max-width: 100%">
-                    <div class="box-1" style="padding:5em 5%;" >
+			<section id="main" class="wrapper withimg ">
+                <div class="container" style="max-width: 100%; ">
+                    <div class="box-1" style="padding:5em 3%;" >
                         <header class="major">
                             <h2>報名 & 繳費資訊</h2>
                             <p>Register & Payment</p>
@@ -42,7 +42,7 @@
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">報名費用</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:1.3vw;">
+                                <table class="table table-bordered table-hover" style="font-size:3vh;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">一人報名</th>
@@ -62,7 +62,7 @@
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">退費機制</h2>
                             <div class="table-responsive">
-                                <table class="table table-bordered table-hover" style="font-size:1.3vw;">
+                                <table class="table table-bordered table-hover" style="font-size:3vh;">
                                   <tbody>
                                     <tr>
                                       <th scope="row">6/14 23:59:59 前</th>
