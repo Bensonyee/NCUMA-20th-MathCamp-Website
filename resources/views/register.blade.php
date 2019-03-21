@@ -28,7 +28,7 @@
                         <section>
                             <h2 class="p-3 mb-2 bg-dark text-white">報名辦法</h2>
                             <div class="d-flex justify-content-center ">
-                                <div class="d-flex text-left p-3 mb-2 " style="font-size:1.3vw;">
+                                <div class="d-flex text-left p-3 mb-2 " style="font-size:3vh;">
                                     <ul style="margin:0;">
                                         <li>營隊時間 : 2019/07/15(一)〜2019/07/19(五)</li><br>
                                         <li>營隊地點 : 國立中央大學</li><br>
