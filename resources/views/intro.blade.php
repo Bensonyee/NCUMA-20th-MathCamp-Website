@@ -22,7 +22,7 @@
                 <div class="container" style="max-width: 100%; ">
                     <div class="box-1" style="padding:5em 3%;" >
                         <header class="major">
-                            <h2 style="font-size:4vh;">松樹營介紹</h2>
+                            <h2 style="font-size:4vh;">松數營介紹</h2>
                             <p style="font-size:3vh;">Introduction</p>
                         </header>
                         <section>
