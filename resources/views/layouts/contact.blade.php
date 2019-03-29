@@ -8,14 +8,14 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 ">
                 <div class="card  mb-3 mt-3 contactUsCard ">
-                  <img class="card-img-top" src="../images/18thlogo.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="../images/20thlogo.jpg" alt="Card image cap">
                   <div class="card-body ">
                     <h4 class="card-title">主辦單位</h4>
                     <h3 class="card-title">中央大學數學系</h3>
                     <hr style="margin-top:1em; margin-bottom:1em;">
                     <div class="card-text" style="padding-left:20%; text-align:left; ">
-                        <i class="fa fa-phone"></i><a>&nbsp &nbsp 03-4227151 轉 65117 </a></br>
-                        <i class="fa fa-facebook-square"></i><a>&nbsp &nbsp Link</a></br>
+                        <i class="fa fa-phone"></i><a>&nbsp &nbsp 0975-582491</a></br>
+                        <i class="fa fa-facebook-square"></i><a style="text-decoration: none;" href="https://www.facebook.com/profile.php?id=100002704315173">&nbsp &nbsp 二十屆松數營</a></br>
                     </div>
                   </div>
                 </div>

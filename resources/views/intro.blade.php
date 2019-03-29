@@ -26,22 +26,41 @@
                             <p style="font-size:3vh;">Introduction</p>
                         </header>
                         <section>
-                            <h2 class="p-3 mb-2 bg-dark text-white">關於我們</h2>
+                            <h2 class="p-3 mb-2 bg-dark text-white">關於松數營</h2>
                             <div class="d-flex justify-content-center ">
                                 <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
-                                    <ul style="margin:0;">
-                                        <li><black style="color: #000000;">營隊時間</black> : 2019/07/15(一)〜2019/07/19(五)</li><br>
-                                        <li><black style="color: #000000;">營隊地點</black> : 國立中央大學</li><br>
-                                        <li><black style="color: #000000;">招生對象</black> : 國三應屆畢業生〜高三應屆畢業生</li><br>
-                                        <li><black style="color: #000000;">報名時間</black> : 即日起〜2019/05/19(日)</li><br>
-                                        <li><black style="color: #000000;">報名方式</black> : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li><br>
-                                    </ul>      
+                                    <h4>在你的印象中，數學是否只剩下無止境的練習和背誦呢？那你就大錯特錯囉！數學其實既神奇又充滿魔力，我們會讓你知道學習數學是可以沒有壓力的，重拾對數學的熱情。</h4>
                                 </div>
-                            </div>    
-                            
-                            <hr class="major" />
-                         
-                            
+                            </div> 
+                            <div class="d-flex justify-content-center ">
+                                <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
+                                    <h4>在這裡不只能學習到數學的奧妙，還能遇到志同道合的朋友，一起走在數學的大道上，面對各式各樣的難題和關卡，互相切磋合作，除此之外還有可能成為你一生的知己。</h4>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center ">
+                                <div class="d-flex text-left p-3 mb-2 " style="font-size:20px;">
+                                    <h4>我們準備了一連串緊張又刺激的活動，不只能輕鬆的學習，還能交到許多新朋友。總共五天的營期，每一刻都高潮迭起絕無冷場，將是這個炎炎夏日最與眾不同的冒險，你還在等什麼？</h4>
+                                </div>
+                            </div>
+                            <h2 class="p-3 mb-2 bg-dark text-white">第十九屆活動剪影</h2>
+                            <div id="quad">
+                                <figure>
+                                    <img src="../images/snip/3.jpg" alt="rose-red-wine">
+                                    <figcaption>Rose Red Wine</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="../images/snip/2.jpg" alt>
+                                    <figcaption>Green Glass Bottle</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="../images/snip/1.jpg" alt>
+                                    <figcaption>Guinness Barrels, Dublin</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="../images/snip/21.jpg" alt>
+                                    <figcaption>Crystal Skull Vodka</figcaption>
+                                </figure>
+                            </div>
                         </section>
                         
 
@@ -53,3 +72,9 @@
         @include('layouts.footer')
 	</body>
 </html>
+<script>
+var quadimages = document.querySelectorAll("#quad figure");
+for(i=0; i<quadimages.length; i++) {
+  quadimages[i].addEventListener('click', function(){ this.classList.toggle("expanded"); quad.classList.toggle("full") }); 
+}
+</script>

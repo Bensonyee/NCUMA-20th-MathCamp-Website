@@ -10,11 +10,11 @@
         <p>在今年暑假 展開全新冒險！</p><br>
         <div class="row justify-content-center">
             <div class="col-md-5 " >
-                <img src="../images/family1.jpg" alt="" class="img-rounded" style="height: 50vw; max-height:500px; margin-bottom: 20px;" align="middle">
+                <img src="../images/family1.jpg" alt="" class="img-rounded" style="height: 50vw; max-height:35vh; margin-bottom: 20px;" align="middle">
 				<p>19屆松數營活動剪影</p>
             </div>
             <div class="col-md-5 " >
-                <img src="../images/family2.jpg" alt="" class="img-rounded" style="height: 50vw; max-height:500px; margin-bottom: 20px;" align="middle">
+                <img src="../images/family2.jpg" alt="" class="img-rounded" style="height: 50vw; max-height:35vh; margin-bottom: 20px;" align="middle">
 				<p>19屆松數營活動剪影</p>
             </div>
         </div>

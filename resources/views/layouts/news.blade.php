@@ -10,7 +10,7 @@
             <div class="item col-xs-4 col-lg-6">
                 <div class="thumbnail card ">
                     <div class="img-event">
-                        <img class="group list-group-image img-fluid" src="../images/news1.jpg" alt="" />
+                        <img class="group list-group-image img-fluid" src="../images/20thlogo.jpg" alt="" />
                     </div>
                     <div class="caption card-body " >
                         <h2 class="group card-title inner list-group-item-heading">2019松數營報名開跑囉~!</h2>
@@ -56,7 +56,7 @@
       </div>
       <div class="modal-body" style="padding-left: 10%; padding-right: 10%;">
          <center>
-            <img src="../images/18thlogo.jpg" style="width: 100%; max-width: 300px; margin-top: 50px; margin-bottom: 80px;" alt="">
+            <img src="../images/20thlogo.jpg" style="width: 100%; max-width: 300px; margin-top: 50px; margin-bottom: 80px;" alt="">
          </center>
          <p>萬眾矚目的中央松數營又來啦！不論你喜歡數學還是討厭數學，這個暑假就跟著我們一起冒險，發現數學不為人知的一面，讓你重新愛上數學！想要了解更多嗎？趕快加入我們的行列吧！</p>
       </div>
