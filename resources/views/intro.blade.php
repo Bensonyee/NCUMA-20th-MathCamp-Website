@@ -46,19 +46,19 @@
                             <div id="quad">
                                 <figure>
                                     <img src="../images/snip/3.jpg" alt="rose-red-wine">
-                                    <figcaption>Rose Red Wine</figcaption>
+                                    <figcaption>活動剪影</figcaption>
                                 </figure>
                                 <figure>
                                     <img src="../images/snip/2.jpg" alt>
-                                    <figcaption>Green Glass Bottle</figcaption>
+                                    <figcaption>活動剪影</figcaption>
                                 </figure>
                                 <figure>
                                     <img src="../images/snip/1.jpg" alt>
-                                    <figcaption>Guinness Barrels, Dublin</figcaption>
+                                    <figcaption>活動剪影</figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="../images/snip/21.jpg" alt>
-                                    <figcaption>Crystal Skull Vodka</figcaption>
+                                    <img src="../images/snip/21.JPG" alt>
+                                    <figcaption>活動剪影</figcaption>
                                 </figure>
                             </div>
                         </section>
