@@ -35,6 +35,7 @@
                                         <li><black style="color: #000000;">招生對象</black> : 國三應屆畢業生〜高三應屆畢業生</li><br>
                                         <li><black style="color: #000000;">報名時間</black> : 即日起〜2019/05/19(日)</li><br>
                                         <li><black style="color: #000000;">報名方式</black> : 填寫並送出表單後，七天內，將有以電話或電子郵件通知報名結果，若未接到電話通知或未收到電子郵件，請來電詢問。</li><br>
+                                        <li><black style="color: #ff0000;">家長同意書</black>: <a  style="text-decoration:none;" href="/files/家長同意書.pdf">下載</a></li><br>
                                     </ul>      
                                 </div>
                             </div>    
