@@ -39,7 +39,8 @@
                                     </ul>      
                                 </div>
                             </div>    
-                            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.open('https://docs.google.com/forms/d/1j3eUy5cWgFJJ0ecW1GAe3J6KhawpzObeVy7e2g54Da0', '_blank');">點我立刻報名！</button>
+                            <!--button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.open('https://docs.google.com/forms/d/1j3eUy5cWgFJJ0ecW1GAe3J6KhawpzObeVy7e2g54Da0', '_blank');">點我立刻報名！</button-->
+                            <button type="button" class="btn btn-secondary btn-lg btn-block" >報名截止囉 QAQ</button>
                             <hr class="major" />
                             <h2 class="p-3 mb-2 bg-dark text-white">報名費用</h2>
                             <div class="table-responsive">

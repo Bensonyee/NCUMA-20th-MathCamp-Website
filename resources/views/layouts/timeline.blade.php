@@ -39,7 +39,7 @@
             </ol>
 
             <div class="timer">
-                <p id='textLayout'>距離 報名截止 還有 <span id='timer_js'></span></p>
+                <p id='textLayout'>距離 營期開始 還有 <span id='timer_js'></span></p>
             </div>
         </div>
     </div>
